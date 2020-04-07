@@ -1,0 +1,7 @@
+serve:
+  web:
+    port: 8080
+  database:
+    type: mysql
+    drive-addr: xxx:xxx@tcp(xxx.xxx.xxx.xxx:3306)/shorturl?charset=utf8&parseTime=True&loc=Local
+  short-prefix: http://localhost:8080/
